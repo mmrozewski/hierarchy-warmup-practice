@@ -1,0 +1,49 @@
+/* *{
+    justify-content: center;
+} */
+
+body {
+    background-image: radial-gradient( rgb(168, 168, 168) 80%, #0000009c 100%);
+}
+
+.car-card {
+    list-style-type: none;
+    background-color: white;
+    border-radius: 25px;
+    width: 20%;
+    height: 150px;
+    box-shadow: -8px 8px 10px #00000088;
+    position: relative;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.car-descrip {
+    background-color: black;
+    color: white;
+    font-size: 13px;
+    transform: translateY(100px);
+    /* height: 100%; */
+    position: absolute;
+    z-index: 1;
+}
+
+.title {
+    font-size: 18px;
+    position: absolute;
+    z-index: 1;
+}
+
+.car-pic {
+    max-width: 150%;
+    max-height: 150%;
+    position: relative;
+    z-index: 0;
+    transform: translate(-15%);
+}
+
+.car-container {
+    align-content: center;
+    position: relative;
+    text-align: center;
+}
